@@ -1,49 +1,98 @@
 # Bank Customer Churn Prediction
 
-## Project Overview
+##Project Overview
 
-This project aims to predict whether a bank customer will leave the bank using machine learning techniques.
+This project focuses on predicting customer churn in the banking sector using Machine Learning techniques.
 
-## Problem Domain
+Customer churn refers to customers leaving or discontinuing their relationship with a bank. Predicting potential churn customers can help banks take preventive actions, improve customer satisfaction, and reduce customer loss.
 
-Banking and Customer Relationship Management.
+---
 
-## Dataset
+##Project Objectives
 
-The dataset used in this project is the Churn Modelling dataset.
+The main objectives of this project are:
 
-The target variable is:
+- Analyze customer data to identify factors related to customer churn.
+- Perform Exploratory Data Analysis (EDA).
+- Preprocess and prepare the dataset for Machine Learning.
+- Select relevant features for prediction.
+- Train multiple Machine Learning models.
+- Evaluate and compare model performance.
+- Identify the best-performing model for customer churn prediction.
 
-- `Exited = 0`: Customer stayed
-- `Exited = 1`: Customer left
+---
 
-## Technologies Used
+##Problem Domain
 
-- Python
-- Google Colab
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- CatBoost
-- XGBoost
-- Random Forest
-- Artificial Neural Network
+**Domain:** Banking and Financial Services
 
-## Machine Learning Models
+**Problem:**  
+Banks need to identify customers who are likely to leave their services so that appropriate retention strategies can be applied.
 
-1. CatBoost
-2. XGBoost
-3. Logistic Regression
-4. Random Forest
-5. Artificial Neural Network
-6. LightGBM / TabPFN-3
+**Machine Learning Task:**  
+Binary Classification
 
-## Project Structure
+**Target Variable:** `Exited`
+
+- `0` → Customer stayed
+- `1` → Customer left
+
+---
+
+## 📊 Dataset
+
+The project uses the **Churn Modelling Dataset**.
+
+### Dataset Information
+
+- Number of records: 10,000
+- Target variable: `Exited`
+- Problem type: Binary Classification
+
+### Main Features
+
+| Feature | Description |
+|---|---|
+| CreditScore | Customer's credit score |
+| Geography | Customer's country/region |
+| Gender | Customer's gender |
+| Age | Customer's age |
+| Tenure | Number of years with the bank |
+| Balance | Customer's account balance |
+| NumOfProducts | Number of bank products used |
+| HasCrCard | Whether the customer has a credit card |
+| IsActiveMember | Whether the customer is an active member |
+| EstimatedSalary | Estimated customer salary |
+
+The following columns are excluded because they are not useful for prediction:
+
+- `RowNumber`
+- `CustomerId`
+- `Surname`
+
+---
+
+##Project Workflow
+
+The project follows the following Machine Learning workflow:
 
 ```text
-data/
-notebooks/
-results/
-README.md
+Data Collection
+      ↓
+Data Understanding
+      ↓
+Exploratory Data Analysis
+      ↓
+Data Preprocessing
+      ↓
+Feature Selection
+      ↓
+Train-Test Split
+      ↓
+Model Training
+      ↓
+Model Evaluation
+      ↓
+Model Comparison
+      ↓
+Best Model Selection
