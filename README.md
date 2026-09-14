@@ -39,7 +39,7 @@ Binary Classification
 
 ---
 
-## 📊 Dataset
+##Dataset
 
 The project uses the **Churn Modelling Dataset**.
 
@@ -49,10 +49,21 @@ The project uses the **Churn Modelling Dataset**.
 - Target variable: `Exited`
 - Problem type: Binary Classification
 
+  ###Member Allocations
+  
+| Member         | EDA Task                  | Preprocessing Task             |
+| -------------- | ------------------------- | ------------------------------ |
+| **Aathmika**   | Distribution              | Encoding Categorical Variables |
+| **Thishan**    | Categorical Feature Graph | Feature Engineering            |
+| **Fatheen**    | Churn Proportion          | Normalization                  |
+| **Shakeer**    | Correlation               | Outlier Removal                |
+| **Sipna**      | Boxplot                   | Standardization                |
+| **Lathurshan** | Customer Characteristics  | Handling Missing Values        |
+
 ### Main Features
 
 | Feature | Description |
-|---|---|
+|
 | CreditScore | Customer's credit score |
 | Geography | Customer's country/region |
 | Gender | Customer's gender |
