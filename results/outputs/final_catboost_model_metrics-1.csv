@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1_Score,ROC_AUC
+CatBoost,0.8218,0.5372,0.7063,0.6103,0.8617
